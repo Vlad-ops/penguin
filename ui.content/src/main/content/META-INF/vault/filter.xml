@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
     <filter root="/conf/penguin" mode="merge"/>
-    <filter root="/content/penguin" mode="merge"/>
-    <filter root="/content/dam/penguin" mode="merge"/>
+    <filter root="/content/penguin"/>
+    <filter root="/content/dam/penguin"/>
 </workspaceFilter>

@@ -1,0 +1,52 @@
+{
+  "jcr:primaryType": "nt:unstructured",
+  "jcr:createdBy": "admin",
+  "jcr:lastModifiedBy": "admin",
+  "jcr:created": "Sat Sep 21 2019 10:59:28 GMT+0100",
+  "jcr:lastModified": "Sat Sep 21 2019 12:04:21 GMT+0100",
+  "sling:resourceType": "penguin/components/content/carouselpenguin",
+  "carouselOptions": {
+    "jcr:primaryType": "nt:unstructured",
+    "item0": {
+      "jcr:primaryType": "nt:unstructured",
+      "author": "John Keats",
+      "url": "https://www.penguin.co.uk/books/33867/selected-poems--keats/9780140424478.html",
+      "image": "/content/dam/penguin/one.jpg",
+      "title": "Selected Poems: Keats"
+    },
+    "item1": {
+      "jcr:primaryType": "nt:unstructured",
+      "author": "Toni Morrison<script>alert(123)</script>",
+      "url": "https://www.penguin.co.uk/books/1032964/beloved/9780099760115.html",
+      "image": "/content/dam/penguin/two.jpg",
+      "title": "Beloved"
+    },
+    "item2": {
+      "jcr:primaryType": "nt:unstructured",
+      "author": "J. B. Priestley",
+      "url": "https://www.penguin.co.uk/books/57274/an-inspector-calls-and-other-plays/9780141185354.html",
+      "image": "/content/dam/penguin/three.jpg",
+      "title": "An Inspector Calls and Other Plays"
+    },
+    "item3": {
+      "jcr:primaryType": "nt:unstructured",
+      "author": "George Orwell",
+      "url": "https://www.penguin.co.uk/books/57033/animal-farm/9780141182704.html",
+      "image": "/content/dam/penguin/four.jpg",
+      "title": "Animal Farm"
+    },
+    "item4": {
+      "jcr:primaryType": "nt:unstructured",
+      "author": "Emily Brontë",
+      "url": "https://www.penguin.co.uk/books/183707/wuthering-heights/12345.html",
+      "image": "/content/dam/penguin/five.jpg",
+      "title": "Wuthering Heights"
+    },
+    "item5": {
+      "jcr:primaryType": "nt:unstructured",
+      "url": "https://www.penguin.co.uk/books/54666/macbeth/9780141396316.html",
+      "image": "/content/dam/penguin/six.jpg",
+      "title": "Macbeth"
+    }
+  }
+}

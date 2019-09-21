@@ -1,0 +1,29 @@
+<section data-sly-use.carousel="com.penguin.aem.core.models.CarouselPenguinModel" class="component  bookshelfCarousel">
+    <div class="bookshelfCarousel__itemListContainer">
+        <ul data-sly-list.tile="${carousel.tiles}" class="bookshelfCarousel__itemList">
+            <li class="bookshelfCarousel__itemList__item">
+                <div class="component__item boxWrapper bookCard">
+                    <a class="bookCard__link" href="${tile.url}" title="${tile.title}">
+                        <div class="bookCard__wrapper">
+                            <div class="box__image box__image--withHover bookCard__imageContainer" >
+                                <div class="bookCard__image">
+                                    <img src="${tile.image}" alt="${tile.title}" >
+                                </div>
+                            </div>
+                            <div class="bookCard__contentContainer">
+                                <h5 class="bookCard__title">${tile.title}</h5>
+                                <h6 class="bookPromo__details__authorName">${tile.author}</h6>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <sly data-sly-test="${wcmmode.edit && carousel.errors}">
+        <h3>Errors in Carousel Component: </h3>
+        <ul data-sly-list="${carousel.errors}" style="color: red">
+            <li>${item}</li>
+        </ul>
+    </sly>
+</section>
